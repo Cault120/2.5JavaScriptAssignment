@@ -1,0 +1,74 @@
+body{
+    background-color: bisque;
+}
+
+#cal{
+    width: 200px;
+    color: rgb(64, 64, 64);   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center;
+    padding: 20px;
+}
+
+#main{
+    width: 200px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.thing{
+    color: rgb(33, 33, 33);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#num1{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#num2{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#bt1{
+    background-color: green;
+    color: seashell;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#bt2{
+    background-color: red;
+    color: seashell;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#bt3{
+    background-color: blue;
+    color: seashell;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#bt4{
+    background-color: orange;
+    color: seashell;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#output{
+    width: 220px;
+    text-align: center;
+    color: rgb(33, 33, 33);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

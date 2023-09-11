@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+
+    <h1 id="cal">Calculator</h1>
+
+    <div>
+        <div id="main">
+            <p class="thing">First intiger here!</p>
+                <input id="num1" type="number"></input>
+            <p class="thing">Second intiger here!</p>
+                <input id="num2" type="number"></input>
+        </div>
+
+        <div id="buttons">
+            <button id="bt1" onclick="calc(this.id)">Add</button>
+            <button id="bt2" onclick="calc(this.id)">Subtract</button>
+            <button id="bt3" onclick="calc(this.id)">Multiply</button>
+            <button id="bt4" onclick="calc(this.id)">Divide</button>
+        </div>
+    </div>
+
+    <div id="output1">
+        <p>Here is your output!</p>
+        <p id="output">0</p>        
+    </div>
+
+</body>
+</html>
